@@ -5,9 +5,10 @@ function About() {
         <div className="m-auto flex gap-3 justify-between items-start">
           <div className="w-5/12 overflow-hidden">
             <img
-              className="mt-5"
               src="./src/img/Images.png"
               alt="arabian people"
+              draggable="false"
+              className="mt-5"
             />
           </div>
           <div className="w-7/12 flex flex-col gap-5">

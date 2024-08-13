@@ -9,16 +9,16 @@ import Hero from "./components/Hero";
 
 function App() {
   return (
-    <>
+    <div className="flex flex-col gap-16">
       <Navbar />
       <Hero />
-      <About />
-      <Package />
-      <Sponsor />
+      {/* <About /> */}
+      {/* <Package /> */}
+      {/* <Sponsor /> */}
       <Facilities />
-      <Gallery />
-      <Footer />
-    </>
+      {/* <Gallery /> */}
+      {/* <Footer /> */}
+    </div>
   );
 }
 
