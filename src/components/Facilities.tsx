@@ -56,7 +56,7 @@ function Facilities() {
   return (
     <div className="bg-cyan-4/20">
       <section
-        className="flex flex-col items-center gap-5 md:gap-6 lg:gap-5 w-10/12 md:w-11/12 lg:w-10/12 py-10 lg:py-20 mx-auto"
+        className="flex flex-col items-center gap-5 md:gap-6 lg:gap-5 w-10/12 md:w-11/12 lg:w-10/12 py-10 lg:py-20 mx-auto scroll-mt-20"
         id="facilities"
       >
         <h1 className="w-fit text-start lg:text-center font-bold tracking-wide text-3xl md:text-4xl lg:text-6xl opacity-80">

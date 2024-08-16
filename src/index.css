@@ -6,6 +6,6 @@
 
 @layer base {
   * {
-    @apply font-kufam select-none;
+    @apply font-kufam select-none scroll-smooth;
   }
 }

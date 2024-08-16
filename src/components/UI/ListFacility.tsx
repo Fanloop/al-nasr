@@ -8,7 +8,7 @@ function ListFacility(props: propList) {
   return (
     <div className="flex gap-3 lg:gap-5 shadow-lg p-4 lg:p-5 rounded-lg bg-white">
       <img
-        className="aspect-square h-10"
+        className="aspect-square h-8 md:h-10"
         src={props.img}
         alt={`${props.title} icon`}
       />

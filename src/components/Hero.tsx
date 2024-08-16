@@ -2,8 +2,11 @@ import mekkah from "./../img/Rectangle 2.png";
 
 function Hero() {
   return (
-    <section className="w-10/12 md:w-11/12 lg:w-10/12 mt-32 md:mt-36 lg:mt-40 mb-10 mx-auto">
-      <header className="flex" id="hero">
+    <section
+      id="hero"
+      className="w-10/12 md:w-11/12 lg:w-10/12 mt-32 md:mt-36 lg:mt-40 mb-10 mx-auto scroll-mt-32 md:scroll-mt-36 lg:scroll-mt-40"
+    >
+      <header className="flex">
         <div className="flex flex-col md:flex-row gap-10 lg:gap-2">
           <div className="flex flex-col gap-5 w-full lg:w-6/12">
             <div className="rounded-full bg-cyan-2 text-cyan-1 py-1 px-7 w-fit font-nunito text-base lg:text-xl font-semibold">
