@@ -1,3 +1,8 @@
+import logo from "./../img/Logo.png";
+import facebook from "./../img/sponsor/ic_baseline-facebook.svg";
+import twitter from "./../img/sponsor/x-twitter.svg";
+import instagram from "./../img/sponsor/ri_instagram-fill.svg";
+
 function Footer() {
   return (
     <footer className="bg-cyan-3 text-white">
@@ -6,11 +11,7 @@ function Footer() {
           <div className="flex flex-col gap-5 w-full md:w-1/2 lg:w-1/3 mx-0 md:mx-auto lg:mx-0">
             <div className="flex justify-end items-center gap-5 py-3 px-6 bg-white rounded-xl w-full">
               <div className="w-1/2">
-                <img
-                  className="object-contain h-full"
-                  src="./src/img/Logo.png"
-                  alt="logo"
-                />
+                <img className="object-contain h-full" src={logo} alt="logo" />
               </div>
               <div className="w-1/2 h-fit text-cyan-3 text-2xl font-semibold text-end">
                 Al Hajj Umrah
@@ -84,7 +85,7 @@ function Footer() {
                   Indonesia
                 </a>
                 <a className="font-nunito text-sm md:text-lg" href="">
-                  Saudi Arabia{" "}
+                  Saudi Arabia
                 </a>
                 <a className="font-nunito text-sm md:text-lg" href="">
                   Uni Emirates Arab
@@ -101,19 +102,15 @@ function Footer() {
           <div className="flex gap-2">
             <img
               className="bg-white rounded-lg p-1"
-              src="./src/img/sponsor/ri_instagram-fill.svg"
+              src={instagram}
               alt="instagram"
             />
             <img
               className="bg-white rounded-lg p-1"
-              src="./src/img/sponsor/ic_baseline-facebook.svg"
+              src={facebook}
               alt="facebook"
             />
-            <img
-              className="bg-white rounded-lg p-1"
-              src="./src/img/sponsor/x-twitter.svg"
-              alt="x"
-            />
+            <img className="bg-white rounded-lg p-1" src={twitter} alt="x" />
           </div>
         </div>
       </div>

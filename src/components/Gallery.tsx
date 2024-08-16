@@ -1,3 +1,9 @@
+import image1 from "./../img/Rectangle 10.png";
+import image2 from "./../img/Rectangle 11.png";
+import image3 from "./../img/Rectangle 13.png";
+import image4 from "./../img/Rectangle 12.png";
+import image5 from "./../img/Rectangle 14.png";
+
 function Gallery() {
   return (
     <section
@@ -14,28 +20,33 @@ function Gallery() {
       <div className="grid grid-cols-4 grid-rows-2">
         <img
           className="col-span-2 row-span-2 rounded-lg w-full h-full block"
-          src="./src/img/Rectangle 10.png"
+          src={image1}
           alt="ka'bah"
+          draggable="false"
         />
         <img
           className="w-full h-full block"
-          src="./src/img/Rectangle 11.png"
+          src={image2}
           alt="ka'bah"
+          draggable="false"
         />
         <img
           className="w-full h-full block"
-          src="./src/img/Rectangle 13.png"
+          src={image3}
           alt="ka'bah"
+          draggable="false"
         />
         <img
           className="w-full h-full block"
-          src="./src/img/Rectangle 12.png"
+          src={image4}
           alt="ka'bah"
+          draggable="false"
         />
         <img
           className="w-full h-full block"
-          src="./src/img/Rectangle 14.png"
+          src={image5}
           alt="ka'bah"
+          draggable="false"
         />
       </div>
     </section>
