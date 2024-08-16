@@ -67,7 +67,7 @@ function Navbar({ navbar, setNavbar }: NavbarProps) {
             </a>
           </li>
         </ul>
-        <button className="hidden lg:block capitalize bg-yellow py-4 px-12 rounded-lg">
+        <button className="hidden lg:block capitalize bg-yellow py-4 px-12 rounded-lg hover:bg-amber-500 transition-all">
           contact us
         </button>
         <button

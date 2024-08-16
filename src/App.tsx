@@ -1,11 +1,11 @@
-// import About from "./components/About";
-import Facilities from "./components/Facilities";
-import Footer from "./components/Footer";
-import Gallery from "./components/Gallery";
 import Navbar from "./components/Navbar";
-// import Package from "./components/Package";
-import Sponsor from "./components/Sponsor";
 import Hero from "./components/Hero";
+// import About from "./components/About";
+import Package from "./components/Package";
+import Sponsor from "./components/Sponsor";
+import Facilities from "./components/Facilities";
+import Gallery from "./components/Gallery";
+import Footer from "./components/Footer";
 import { useState } from "react";
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
       >
         <Hero />
         {/* <About /> */}
-        {/* <Package /> */}
+        <Package />
         <Sponsor />
         <Facilities />
         <Gallery />
