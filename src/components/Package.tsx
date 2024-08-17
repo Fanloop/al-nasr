@@ -33,8 +33,8 @@ const data = [
 
 function Package() {
   return (
-    <section className="w-10/12 pt-16 mx-auto" id="package">
-      <div className="flex flex-col gap-2 md:gap-10 lg:gap-14">
+    <section className="w-10/12 pt-16 mx-auto scroll-mt-10" id="package">
+      <div className="flex flex-col gap-10 lg:gap-14">
         <div className="md:w-9/12 lg:w-7/12 mx-auto">
           <h2 className="font-bold tracking-wide text-3xl md:text-4xl lg:text-5xl mt-4 opacity-80 text-center w-full leading-tight">
             Al Nasr Special Umrah and Hajj Packages
@@ -44,9 +44,21 @@ function Package() {
             complete
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:p-5 gap-4 lg:gap-32">
-          {data.map((props) => (
-            <ListPackage {...props} />
+        {/* for mobile start */}
+        <div className="flex gap-5 md:hidden overflow-x-scroll snap-mandatory snap-x scroll-smooth">
+          {data.map((props, index) => (
+            <div
+              key={index}
+              className="inline-block w-10/12 flex-shrink-0 snap-always snap-center"
+            >
+              <ListPackage {...props} />
+            </div>
+          ))}
+        </div>
+        {/* for mobile end */}
+        <div className="hidden md:grid grid-cols-1 md:grid-cols-3 lg:p-5 gap-4 lg:gap-32">
+          {data.map((props, index) => (
+            <ListPackage key={index} {...props} />
           ))}
           <div className="shadow-lg rounded-xl w-full p-3 flex font-semibold text-cyan-3 justify-center items-center">
             Soon Program
