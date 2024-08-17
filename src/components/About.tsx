@@ -1,3 +1,4 @@
+import arabianPeople from "./../img/Images.png";
 import flight from "./../img/icons/Flight.svg";
 import ticket from "./../img/icons/Ticket.svg";
 import hostel from "./../img/icons/Hostel.svg";
@@ -10,7 +11,7 @@ function About() {
         <div className="m-auto flex gap-3 justify-between items-start">
           <div className="hidden lg:block w-5/12 overflow-hidden">
             <img
-              src="./src/img/Images.png"
+              src={arabianPeople}
               alt="arabian people"
               draggable="false"
               className="mt-5"
