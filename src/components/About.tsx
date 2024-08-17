@@ -2,7 +2,7 @@ import arabianPeople from "./../img/Images.png";
 import flight from "./../img/icons/Flight.svg";
 import ticket from "./../img/icons/Ticket.svg";
 import hostel from "./../img/icons/Hostel.svg";
-import visas from "./src/img/icons/Visas.svg";
+import visas from "./../img/icons/Visas.svg";
 
 function About() {
   return (
