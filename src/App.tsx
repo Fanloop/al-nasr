@@ -20,7 +20,7 @@ function App() {
         }`}
       >
         <Hero />
-        {/* <About /> */}
+        <About />
         <Package />
         <Sponsor />
         <Facilities />

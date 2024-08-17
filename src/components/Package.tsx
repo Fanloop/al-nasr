@@ -33,7 +33,7 @@ const data = [
 
 function Package() {
   return (
-    <section className="w-10/12 pt-16 mx-auto scroll-mt-10" id="package">
+    <section className="w-10/12 py-14 mx-auto scroll-mt-10" id="package">
       <div className="flex flex-col gap-10 lg:gap-14">
         <div className="md:w-9/12 lg:w-7/12 mx-auto">
           <h2 className="font-bold tracking-wide text-3xl md:text-4xl lg:text-5xl mt-4 opacity-80 text-center w-full leading-tight">
