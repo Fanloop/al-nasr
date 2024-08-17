@@ -1,3 +1,8 @@
+import flight from "./../img/icons/Flight.svg";
+import ticket from "./../img/icons/Ticket.svg";
+import hostel from "./../img/icons/Hostel.svg";
+import visas from "./src/img/icons/Visas.svg";
+
 function About() {
   return (
     <section className="bg-cyan-4/20 py-16 lg:py-20 scroll-mt-14" id="about">
@@ -23,7 +28,7 @@ function About() {
             <div className="flex flex-col gap-3 mt-2 md:mt-4 lg:mt-5">
               <div className="flex items-center gap-3">
                 <div className="aspect-square h-full">
-                  <img src="./src/img/icons/Flight.svg" alt="Flight logo" />
+                  <img src={flight} alt="Flight logo" />
                 </div>
                 <p className="text-base md:text-2xl font-nunito">
                   Flight Jakarta Saudi - Saudi Jakarta
@@ -31,7 +36,7 @@ function About() {
               </div>
               <div className="flex items-center gap-3">
                 <div className="aspect-square h-full">
-                  <img src="./src/img/icons/Ticket.svg" alt="Ticket logo" />
+                  <img src={ticket} alt="Ticket logo" />
                 </div>
                 <p className="text-base md:text-2xl font-nunito">
                   Tickets are included in the cost
@@ -39,7 +44,7 @@ function About() {
               </div>
               <div className="flex items-center gap-3">
                 <div className="aspect-square h-full">
-                  <img src="./src/img/icons/Hostel.svg" alt="Hostel logo" />
+                  <img src={hostel} alt="Hostel logo" />
                 </div>
                 <p className="text-base md:text-2xl font-nunito">
                   Comfortable hotel with a rating of 4
@@ -47,7 +52,7 @@ function About() {
               </div>
               <div className="flex items-center gap-3">
                 <div className="aspect-square h-full">
-                  <img src="./src/img/icons/Visas.svg" alt="Visas logo" />
+                  <img src={visas} alt="Visas logo" />
                 </div>
                 <p className="text-base md:text-2xl font-nunito">
                   We cover the Visa Fee and it's Included
