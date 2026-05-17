@@ -45,5 +45,4 @@ If you'd like to contribute to this project, please fork the repository, create 
 
 For any inquiries or feedback, feel free to reach out:
 
-- **Email**: fahriprayoga3010@gmail.com
-- **GitHub**: [Fanloop](https://github.com/Fanloop)
+- **GitHub**: [fahriprayoga](https://github.com/fahriprayoga)
